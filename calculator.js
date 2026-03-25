@@ -45,7 +45,11 @@ function addToHistory(operation, operands, result) {
 console.log(calcHistory)
 
 function viewHistory() {
-    return calcHistory;
+   if (calcHistory.length === 0) {
+        return "No history available";
+    } else {
+        return calcHistory;
+    }
 }
 
 const Userprofile = {
