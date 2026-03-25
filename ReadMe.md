@@ -10,8 +10,6 @@ A simple JavaScript-based calculator that performs basic arithmetic operations a
   - Subtraction
   - Multiplication
   - Division (with zero handling)
-  - Exponentiation
-  - Square root
 - History tracking stored as structured objects
 - Clean and reusable function-based design
 
@@ -75,13 +73,6 @@ Returns the product of two numbers.
 Returns the quotient of two numbers.
 Handles division by zero by returning an error message.
 
-### `raisedToPower(num1, num2)`
-
-Returns `num1` raised to the power of `num2`.
-
-### `squareRoot(num)`
-
-Returns the square root of a number.
 
 ---
 
@@ -134,9 +125,3 @@ node index.js
 
 ---
 
-## License
-
-This project is for educational purposes.
-
-```
-```
