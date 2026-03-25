@@ -43,3 +43,13 @@ function addToHistory(operation, operands, result) {
     return calcHistory
 }
 console.log(calcHistory)
+
+function viewHistory() {
+    return calcHistory;
+}
+
+const Userprofile = {
+       userName: "Kimberly",
+       age: 40,
+       color: red
+}
