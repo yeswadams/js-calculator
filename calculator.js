@@ -2,14 +2,14 @@ let calcHistory = [];
 
 function addition(a, b) {
     let result = a + b;
-    addToHistory("addition", [num1, num2], result);
+    addToHistory("addition", [a, b], result);
     return result
 }
 console.log(addition(2,4))
 
 function subtraction(a, b) {
     let result = a - b;
-    addToHistory("subtraction", [num1, num2], result);
+    addToHistory("subtraction", [a, b], result);
     return result
 }
 console.log(subtraction(2,4))
@@ -25,7 +25,7 @@ console.log(multiplication(2,0))
 function division(a, b) {
     let result = a / b;
     addToHistory("division", [a, b], result);
-    if(num2 == 0 ) {
+    if(b == 0 ) {
         return "Error: Cannot divide by Zero";
     } return result
 }
@@ -50,10 +50,4 @@ function viewHistory() {
     } else {
         return calcHistory;
     }
-}
-
-const Userprofile = {
-       userName: "Kimberly",
-       age: 40,
-       color: red
 }
